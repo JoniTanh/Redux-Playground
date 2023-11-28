@@ -10,25 +10,25 @@ The application/code primarily serves as a playground and may evolve in one dire
 
 To set up this project locally:
 
-**1.** Clone the repository to your local machine and navigate to the project directory.
+**1. Clone the repository to your local machine and navigate to the project directory.**
 
 ```
 cd redux
 ```
 
-**2.** Install the necessary dependencies.
+**2. Install the necessary dependencies.**
 
 ```
 npm install
 ```
 
-**3.** Create a `firebase.js` file inside the `includes` directory with your Firebase configuration. In `includes/firebase.js`, add your Firebase Realtime Database URL:
+**3. Create a `firebase.js` file inside the `includes` directory with your Firebase configuration. In `includes/firebase.js`, add your Firebase Realtime Database URL:**
 
 ```
 export const firebaseURL = 'YOUR_FIREBASE_DATABASE_URL';
 ```
 
-**4.** To start the development server, run:
+**4. To start the development server, run:**
 
 ```
 npm start
